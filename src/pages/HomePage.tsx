@@ -1,7 +1,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ArrowLeft, ChevronRight } from 'lucide-react';
+import { ArrowRight, ArrowLeft, ChevronRight, MapPin } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from '@/lib/utils';
