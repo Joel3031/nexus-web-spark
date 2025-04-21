@@ -1,31 +1,250 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nexus Global - Banking as a Service & Digital Solutions</title>
-    <meta name="description" content="Nexus Global provides Banking as a Service (BaaS) solutions and digital transformation services for businesses across the MENA region." />
-    <meta name="author" content="Nexus Global" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nexus Global - Banking as a Service & Digital Solutions</title>
+  <meta name="description" content="Nexus Global provides Banking as a Service (BaaS) solutions and digital transformation services for businesses across the MENA region.">
 
-    <meta property="og:title" content="Nexus Global - Banking as a Service & Digital Solutions" />
-    <meta property="og:description" content="Nexus Global provides Banking as a Service (BaaS) solutions and digital transformation services for businesses across the MENA region." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <!-- Link your custom styles -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts: Inter and Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="logo">Nexus<span class="logo-accent">Global</span></div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li class="has-submenu">
+            <a href="#">Products</a>
+            <ul class="submenu">
+              <li><a href="#finexsus">Finexsus</a></li>
+              <li><a href="#payzo-books">Payzo Books</a></li>
+              <li><a href="#payzo-hr">Payzo HR</a></li>
+              <li><a href="#rhevira">RHEVIRA</a></li>
+              <li><a href="#growk">GrowK</a></li>
+              <li><a href="#sentinel360">Sentinel360</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu">
+            <a href="#">Services</a>
+            <ul class="submenu">
+              <li><a href="#custom-software">Custom Software Development</a></li>
+              <li><a href="#ai-development">AI Development & Enablement</a></li>
+              <li><a href="#product-design">Product Design</a></li>
+              <li><a href="#cloud-setup">Cloud Setup & Architecture</a></li>
+              <li><a href="#dedicated-team">Dedicated Team</a></li>
+              <li><a href="#devops-services">DevOps Services</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Tech Stack</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#" class="btn">Reach Out</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@nexusglobal_sa" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  </head>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="slider" id="slider">
+        <div class="slide active">
+          <h1>Accelerate Your Banking as a Service (BaaS) Transformation with Finexsus – 260+ APIs in Just 8 Weeks!</h1>
+          <p>Nexus Global's Finexsus is a leading Banking as a Service (BaaS) provider in the MENA region, offering a fully integrated, API-driven platform that enables banks and fintechs to launch next-gen financial services in just 8 weeks. With 260+ ready-to-use APIs, Finexsus empowers businesses to seamlessly implement digital banking, payments, lending, compliance, and more—all while ensuring regulatory compliance, security, and scalability.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#">Reach Out</a>
+            <a class="btn btn-outline" href="#products">Explore Our Solutions</a>
+          </div>
+        </div>
+        <div class="slide">
+          <h1>Tailored Digital Solutions for Scalable Growth</h1>
+          <p>At Nexus Global, we deliver custom software and digital solutions designed for scalability, security, and efficiency. Specializing in Banking as a Service (BaaS) and fintech innovations, we create tailored applications, integrations, and automation tools to help businesses streamline operations and drive growth. Whether you're a financial institution, fintech startup, or enterprise, we ensure your digital transformation is seamless and future-ready.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#">Reach Out</a>
+            <a class="btn btn-outline" href="#products">Explore Our Solutions</a>
+          </div>
+        </div>
+      </div>
+      <button class="slider-nav prev" id="sliderPrev">&#8592;</button>
+      <button class="slider-nav next" id="sliderNext">&#8594;</button>
+      <div class="slider-dots" id="sliderDots"></div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Products Section -->
+    <section class="section" id="products">
+      <div class="container section-title">
+        <h2>Our Products</h2>
+        <p>Cutting-edge solutions empowering businesses across the MENA region</p>
+      </div>
+      <div class="container cards-grid fade-in">
+        <div class="card" id="finexsus">
+          <div class="card-emoji">🏦</div>
+          <h3>Finexsus</h3>
+          <p>Leading Banking as a Service (BaaS) Provider in MENA Region</p>
+        </div>
+        <div class="card" id="payzo-books">
+          <div class="card-emoji">📊</div>
+          <h3>Payzo Books</h3>
+          <p>The World's First AI-Powered Accounting System – ZATCA Integrated</p>
+        </div>
+        <div class="card" id="payzo-hr">
+          <div class="card-emoji">👨‍💼</div>
+          <h3>Payzo HR</h3>
+          <p>AI-Based HR System – From Recruitment to Payroll</p>
+        </div>
+        <div class="card" id="rhevira">
+          <div class="card-emoji">⚙️</div>
+          <h3>RHEVIRA</h3>
+          <p>Achieve compliance, quality, and accelerated delivery with RHEVIRA's automated DevOps CI/CD pipeline framework.</p>
+        </div>
+        <div class="card" id="growk">
+          <div class="card-emoji">💰</div>
+          <h3>GrowK</h3>
+          <p>Save & Invest in Digital Gold – Starting from 100 SAR</p>
+        </div>
+        <div class="card" id="sentinel360">
+          <div class="card-emoji">🛡️</div>
+          <h3>Sentinel360</h3>
+          <p>Comprehensive Cybersecurity Solutions for Ultimate Protection</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+      <div class="container section-title">
+        <h2>Our Services</h2>
+        <p>Comprehensive solutions tailored to accelerate your digital transformation journey</p>
+      </div>
+      <div class="container cards-grid fade-in">
+        <div class="card" id="custom-software">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <h3>Custom Software Development</h3>
+          <p>Design, build, and launch tailored solutions that meet your customer's unique needs.</p>
+        </div>
+        <div class="card" id="ai-development">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <h3>AI Development & Enablement</h3>
+          <p>Leverage AI strategically to optimize workflows, automate processes, and enhance business efficiency.</p>
+        </div>
+        <div class="card" id="product-design">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <h3>Product Design</h3>
+          <p>A 14-day structured workshop to refine your product vision, strategy, and business goals.</p>
+        </div>
+        <div class="card" id="cloud-setup">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <h3>Cloud Setup & Architecture Design</h3>
+          <p>Design and deploy scalable, secure, and cost-efficient cloud infrastructure.</p>
+        </div>
+        <div class="card" id="dedicated-team">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <h3>Dedicated Team</h3>
+          <p>Build your product with expert BAs, architects, developers, and DBAs for seamless execution.</p>
+        </div>
+        <div class="card" id="devops-services">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <h3>DevOps Services</h3>
+          <p>Streamline development with CI/CD pipelines, automated deployments, and infrastructure management.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BaaS Key Features Section -->
+    <section class="section dark-section fade-in">
+      <div class="container ba-section">
+        <div class="ba-content">
+          <h2>Banking as a Service Excellence</h2>
+          <p>
+          Finexsus delivers a comprehensive BaaS platform that revolutionizes how financial institutions operate. With our 260+ ready APIs, we enable:
+          </p>
+          <ul class="ba-list">
+            <li>Rapid deployment of digital banking solutions in just 8 weeks</li>
+            <li>Seamless integration with existing core banking systems</li>
+            <li>Regulatory compliant solutions tailored for the MENA region</li>
+            <li>Advanced security features protecting sensitive financial data</li>
+          </ul>
+          <a class="btn btn-outline" href="#finexsus">Discover Finexsus</a>
+        </div>
+        <div class="ba-numbers">
+          <div>
+            <span class="num-accent">260+</span>
+            <span>Ready APIs</span>
+          </div>
+          <div>
+            <span class="num-accent">8</span>
+            <span>Weeks Deployment</span>
+          </div>
+          <div>
+            <span class="num-accent">100+</span>
+            <span>Financial Institutions</span>
+          </div>
+          <div>
+            <span class="num-accent">24/7</span>
+            <span>Support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offices Section -->
+    <section class="section" id="offices">
+      <div class="container section-title">
+        <h2>Our Global Presence</h2>
+        <p>With offices across strategic locations, we're positioned to serve clients worldwide</p>
+      </div>
+      <div class="container cards-grid fade-in">
+        <div class="card">
+          <h3>Dubai, UAE</h3>
+          <p>Business Bay, Dubai, UAE</p>
+          <a class="card-link" href="#contact">Contact this office</a>
+        </div>
+        <div class="card">
+          <h3>Riyadh, Saudi Arabia</h3>
+          <p>King Fahd Road, Riyadh, Saudi Arabia</p>
+          <a class="card-link" href="#contact">Contact this office</a>
+        </div>
+        <div class="card">
+          <h3>Mumbai, India</h3>
+          <p>Bandra Kurla Complex, Mumbai, India</p>
+          <a class="card-link" href="#contact">Contact this office</a>
+        </div>
+        <div class="card">
+          <h3>Bangalore, India</h3>
+          <p>Whitefield, Bangalore, India</p>
+          <a class="card-link" href="#contact">Contact this office</a>
+        </div>
+        <div class="card">
+          <h3>Chennai, India</h3>
+          <p>OMR, Chennai, India</p>
+          <a class="card-link" href="#contact">Contact this office</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container cta-content">
+        <div>
+          <h2>Ready to Transform Your Business?</h2>
+          <p>Let's discuss how Nexus Global can accelerate your growth</p>
+        </div>
+        <a class="btn btn-light" href="#contact">Reach Out Today</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      &copy; <span id="footerYear"></span> Nexus Global. All rights reserved.
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>
